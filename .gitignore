@@ -1,0 +1,38 @@
+# Ignorar arquivos e diretórios gerados pela compilação Java
+target/
+bin/
+
+# Ignorar arquivos e diretórios específicos do Selenium WebDriver
+geckodriver.log
+geckodriver.log.*
+geckodriver.log.json
+geckodriver.log.json.*
+
+# Ignorar arquivos e diretórios de logs do WebDriver
+*.log
+*.log.*
+*.log.json
+*.log.json.*
+
+# Ignorar arquivos e diretórios de relatórios do WebDriver
+test-output/
+
+# Ignorar arquivos de configuração do Selenium WebDriver
+*.iml
+.idea/
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+
+# Ignorar arquivos e diretórios específicos de desenvolvimento local
+.vscode/
+*.swp
+*~
+*.bak
+*.tmp
+
+# Ignorar dependências e bibliotecas geradas
+lib/
+libs/
